@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'stitching-chronicles-8905c53d0b41.herokuapp.com', 'localhost']
+    'stitching-chronicles-8905c53d0b41.herokuapp.com', '8000-aigaa-stitching-chronicl-eqa3e974z5.us2.codeanyapp.com', 'localhost']
 
 
 # Application definition
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
